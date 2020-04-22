@@ -12,6 +12,6 @@ with open('idr0077-experimentA-filePaths.tsv', mode='w') as tsv_file:
         for f in files:
             fullpath = os.path.join(root, f)
             # Only want .czi but NOT ...(1).czi stack slices
-            if not f.endswith('.czi') and '(' not in f:
+            if f.endswith('.czi') and '(' not in f:
                 print(fullpath)
                 # tsv_writer.writerow([target, image_path, new_name])
