@@ -66,6 +66,9 @@ for row in projections:
         dataset = imgs_to_dataset[name]
     tsv_rows.append([dataset, fullpath, f])
 
+# sort...
+tsv_rows.sort(key=lambda row: row[0] + row[2]))
+
 # write to .tsv
 with open('idr0077-experimentA-filePaths.tsv', mode='w') as tsv_file:
     tsv_writer = csv.writer(tsv_file, delimiter='\t')
