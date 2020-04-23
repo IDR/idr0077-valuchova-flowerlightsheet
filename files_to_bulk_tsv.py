@@ -21,6 +21,10 @@ replace_in_figure_4 = [
     '2019-01-16 DR5 nls 05.czi'
 ]
 
+projection_orig_names = {
+    '2018-12-18 ASY H2B 3D 8 angles_Maximum intensity projection.czi': '2018-12-18 ASY H2B bud 05 3D 8 angles.czi'
+}
+
 # iterate all images...
 imgs_to_dataset = {}
 tsv_rows = []
@@ -54,7 +58,10 @@ for root, dirs, files in os.walk(path_to_data):
 # Use imgs_to_dataset mapping to assign Projections...
 for row in projections:
     dataset, fullpath, f = row
-    name = f.replace("_Maximum intensity projection", "")
+    if f in projection_orig_names:
+        name = projection_orig_names[f]
+    else:
+        name = f.replace("_Maximum intensity projection", "")
     if name in imgs_to_dataset:
         dataset = imgs_to_dataset[name]
     tsv_rows.append([dataset, fullpath, f])
