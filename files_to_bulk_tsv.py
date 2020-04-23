@@ -7,7 +7,7 @@ path_to_data = "/uod/idr/filesets/idr0077-valuchova-flowerlightsheet"
 
 # TODO: Handle submitter instructions to ignore and replace...
 to_ignore = [
-    'DIC after.czi'                     # from Supplemental toxicity
+    'DIC after.czi',                     # from Supplemental toxicity
     '2019-01-17 DR5 stages 03.czi',     # from figure 4
     # we don't have these other 3
     '2019-01-17 DR5 stages 05b.czi',
