@@ -67,7 +67,7 @@ for row in projections:
     tsv_rows.append([dataset, fullpath, f])
 
 # sort...
-tsv_rows.sort(key=lambda row: row[0] + row[2]))
+tsv_rows.sort(key=lambda row: row[0] + row[2])
 
 # write to .tsv
 with open('idr0077-experimentA-filePaths.tsv', mode='w') as tsv_file:
