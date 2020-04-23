@@ -45,7 +45,7 @@ for root, dirs, files in os.walk(path_to_data):
             else:
                 dataset = "???"
             print(dataset, fullpath, f)
-            if f.endswith("Maximum intensity projection.czi"):
+            if f.endswith("_Maximum intensity projection.czi"):
                 projections.append([dataset, fullpath, f])
             else:
                 imgs_to_dataset[f] = dataset
@@ -54,7 +54,7 @@ for root, dirs, files in os.walk(path_to_data):
 # Use imgs_to_dataset mapping to assign Projections...
 for row in projections:
     dataset, fullpath, f = row
-    name = f.replace("Maximum intensity projection.czi", "")
+    name = f.replace("_Maximum intensity projection", "")
     if name in imgs_to_dataset:
         dataset = imgs_to_dataset[name]
     tsv_rows.append([dataset, fullpath, f])
