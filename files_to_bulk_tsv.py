@@ -44,8 +44,8 @@ for root, dirs, files in os.walk(path_to_data):
                 dataset = "Supplement toxicity"
             else:
                 dataset = "???"
-            print(target, fullpath, f)
-            f.endswith("Maximum intensity projection.czi"):
+            print(dataset, fullpath, f)
+            if f.endswith("Maximum intensity projection.czi"):
                 projections.append([dataset, fullpath, f])
             else:
                 imgs_to_dataset[f] = dataset
