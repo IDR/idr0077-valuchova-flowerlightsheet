@@ -22,7 +22,8 @@ replace_in_figure_4 = [
 ]
 
 projection_orig_names = {
-    '2018-12-18 ASY H2B 3D 8 angles_Maximum intensity projection.czi': '2018-12-18 ASY H2B bud 05 3D 8 angles.czi'
+    '2018-12-18 ASY H2B 3D 8 angles_Maximum intensity projection.czi': '2018-12-18 ASY H2B bud 05 3D 8 angles.czi',  # Figure 2
+    '2019-01-22 Female ASY H2B 0_Maximum intensity projection.85 a 10min.czi': '2019-01-22 Female ASY H2B 0.85 a 10min.czi', # Figure 1
 }
 
 # iterate all images...
