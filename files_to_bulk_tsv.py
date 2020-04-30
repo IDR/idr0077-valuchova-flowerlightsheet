@@ -7,9 +7,20 @@ path_to_data = "/uod/idr/filesets/idr0077-valuchova-flowerlightsheet"
 
 # TODO: Handle submitter instructions to ignore and replace...
 to_ignore = [
-    'DIC after.czi',                     # from Supplemental toxicity
-    '2019-01-17 DR5 stages 03.czi',     # from figure 4
-    # we don't have these other 3
+    '/uod/idr/filesets/idr0077-valuchova-flowerlightsheet/20191219-disk02/Supplement toxicity/2018-12-03 HTR 03 buds cultivation budN05 FEPcap framefull mag1.7 Zopt 2angles 50ms G20 R10 a 60min/12 48/14 48/15 18/1612/DIC after.czi',
+    '/uod/idr/filesets/idr0077-valuchova-flowerlightsheet/20191219-disk01/figure 04/DR5 staging/2019-01-17 DR5 stages 03.czi',
+    # MIPs replaced with 20200429-ftp MIPs...
+    '/uod/idr/filesets/idr0077-valuchova-flowerlightsheet/20200428-ftp/2018-12-18 ASY H2B bud 05 3D 8 angles_Maximum intensity projection.czi',
+    '/uod/idr/filesets/idr0077-valuchova-flowerlightsheet/20200411-ftp/2019-01-25 DR5 nls 07 a 120min_Maximum intensity projection.czi',
+    '/uod/idr/filesets/idr0077-valuchova-flowerlightsheet/20200428-ftp/2019-01-25 DR5 nls 07 a 120min_Maximum intensity projection.czi',
+    '/uod/idr/filesets/idr0077-valuchova-flowerlightsheet/20200428-ftp/2018-10-31 PCNA ON 035 065 bud line 12 a15min singleside_G1_Maximum intensity projection.czi',
+    '/uod/idr/filesets/idr0077-valuchova-flowerlightsheet/20200428-ftp/045 a 2 minC_Maximum intensity projection.czi',
+    '/uod/idr/filesets/idr0077-valuchova-flowerlightsheet/20200411-ftp/2018-08-27 smg 04 a 5min_Maximum intensity projection.czi',
+    '/uod/idr/filesets/idr0077-valuchova-flowerlightsheet/20200428-ftp/2018-08-27 smg 04 a 5min_Maximum intensity projection.czi',
+    '/uod/idr/filesets/idr0077-valuchova-flowerlightsheet/20200428-ftp/2019-01-11 FEP HTR cotrol toxicity 03_Maximum intensity projection.czi',
+
+
+    # also told to ignore these but we don't have them anyway
     '2019-01-17 DR5 stages 05b.czi',
     '2019-01-17 DR5 stages 07 weaker.czi',
     '2019-01-17 DR5 stages 09 ewaker.czi',
@@ -32,9 +43,9 @@ tsv_rows = []
 projections = []
 for root, dirs, files in os.walk(path_to_data):
     for f in files:
+        fullpath = os.path.join(root, f)
         # We want '.czi' files but not any ...(n).czi slices
-        if f.endswith('.czi') and '(' not in f and f not in to_ignore:
-            fullpath = os.path.join(root, f)
+        if f.endswith('.czi') and '(' not in f and fullpath not in to_ignore:
             match = re.search(r'^.*(figure 0\d).*', fullpath)
             if match:
                 # 'figure 01' -> 'Figure 1'
