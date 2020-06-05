@@ -13,6 +13,7 @@ to_ignore = [
     '/uod/idr/filesets/idr0077-valuchova-flowerlightsheet/20191219-disk01/figure 04/DR5 staging/2019-01-17 DR5 stages 07 weaker.czi',
     '/uod/idr/filesets/idr0077-valuchova-flowerlightsheet/20191219-disk01/figure 04/DR5 staging/2019-01-17 DR5 stages 09 ewaker.czi',
     # MIPs replaced with 20200429-ftp MIPs...
+    '/uod/idr/filesets/idr0077-valuchova-flowerlightsheet/20200411-ftp/2018-12-18 ASY H2B 3D 8 angles_Maximum intensity projection.czi',
     '/uod/idr/filesets/idr0077-valuchova-flowerlightsheet/20200428-ftp/2018-12-18 ASY H2B bud 05 3D 8 angles_Maximum intensity projection.czi',
     '/uod/idr/filesets/idr0077-valuchova-flowerlightsheet/20200411-ftp/2019-01-25 DR5 nls 07 a 120min_Maximum intensity projection.czi',
     '/uod/idr/filesets/idr0077-valuchova-flowerlightsheet/20200428-ftp/2019-01-25 DR5 nls 07 a 120min_Maximum intensity projection.czi',
