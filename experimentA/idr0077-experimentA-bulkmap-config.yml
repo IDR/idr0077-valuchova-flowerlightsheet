@@ -1,0 +1,59 @@
+---
+name: idr0077-valuchova-flowerlightsheet/experimentA
+version: 1
+
+defaults:
+  include: no
+  type: string
+  includeclient: yes
+  visible: yes
+  omitempty: yes
+
+columns:
+
+  - name: Reporter
+    clientname: Reporter
+    include: yes
+
+  - name: Experimental Condition [Growth Condition]
+    clientname: Growth Condition
+    include: yes
+
+  - name: Comment [Experimental Description]
+    clientname: Experimental Description
+    include: yes
+
+  - name: Assay Name (figure name)
+    clientname: Assay Name
+    include: yes
+
+  - name: Comment [Image File]
+    clientname: Image File Comment
+    include: yes
+
+  - name: Comment [Imaging]
+    clientname: Imaging Comment
+    include: yes
+
+  - name: Channels
+    clientname: Channels
+    include: yes
+
+
+  ######################################################################
+  # mapr groups
+  ######################################################################
+
+  - group:
+      namespace: openmicroscopy.org/mapr/organism
+      columns:
+        - name: Characteristics [Organism]
+          clientname: Organism
+          include: yes
+
+advanced:
+  ignore_missing_primary_key: yes
+  primary_group_keys:
+    - namespace: openmicroscopy.org/mapr/organism
+      keys:
+        - Organism
