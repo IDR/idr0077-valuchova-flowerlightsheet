@@ -12,5 +12,7 @@ channels:
         active: true
         end: 3500.0
         start: 200.0
+    4:
+        active: false
 greyscale: false
 version: 2

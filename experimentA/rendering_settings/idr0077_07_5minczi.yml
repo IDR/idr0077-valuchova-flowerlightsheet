@@ -4,5 +4,15 @@ channels:
         active: true
         end: 500.0
         start: 200.0
+    2:
+        active: true
+        end: 3500.0
+        start: 150.0
+    3:
+        active: true
+        end: 750.0
+        start: 150.0
+    4:
+        active: false
 greyscale: false
 version: 2
