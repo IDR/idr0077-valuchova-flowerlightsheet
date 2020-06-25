@@ -1,0 +1,97 @@
+# FILL IN AS MUCH INFORMATION AS YOU CAN.  HINTS HAVE BEEN PUT IN SOME FIELDS AFTER THE HASH # SYMBOL. REPLACE THE HINT WITH TEXT WHERE APPROPRIATE.											
+# STUDY DESCRIPTION SECTION																				
+# Section with generic information about the study including title, description, publication details (if applicable) and contact details																														
+Comment[IDR Study Accession]	idr0077																																
+Study Title	Imaging plant germline differentiation within Arabidopsis flowers by light sheet microscopy																			
+Study Type	time-lapse imaging
+																			
+Study Type Term Source REF	OMIT																																
+Study Type Term Accession	OMIT_0027490																																
+Study Description	In higher plants, germline differentiation occurs during a relatively short period within developing flowers. Understanding of the mechanisms that govern germline differentiation lags behind other plant developmental processes. This is largely because the germline is restricted to relatively few cells buried deep within floral tissues, which makes them difficult to study. To overcome this limitation, we have developed a methodology for live imaging of the germ cell lineage within floral organs of Arabidopsis using light sheet fluorescence microscopy. We have established reporter lines, cultivation conditions, and imaging protocols for high-resolution microscopy of developing flowers continuously for up to several days. We used multiview imagining to reconstruct a three-dimensional model of a flower at subcellular resolution.  We demonstrate the power of this approach by capturing male and female meiosis, asymmetric pollen division, movement of meiotic chromosomes, and unusual restitution mitosis in tapetum cells. This method will enable new avenues of research into plant sexual reproduction.				
+Study Key Words	germline	meiosis	flower	live cell imaging	light sheet microscopy	SPIM		
+Study Organism	Arabidopsis thaliana																			
+Study Organism Term Source REF	NCBITaxon																			
+Study Organism Term Accession	3702																			
+Study Experiments Number	1																			
+Study External URL		
+
+Study BioImage Archive Accession																
+Study Public Release Date																																
+																																	
+# Study Publication																																	
+Study PubMed ID	32041682																																
+Study Publication Title	Imaging plant germline differentiation within Arabidopsis flowers by light sheet microscopy																																
+Study Author List	Valuchova S, Mikulkova P, Pecinkova J, Klimova J, Krumnikl M, Bainar P, Heckmann S, Tomancak P, Riha K																																
+Study PMC ID	PMC7012603																															
+Study DOI	https://doi.org/10.7554/eLife.52546																																
+																																	
+# Study Contacts																																	
+Study Person Last Name	Valuchova																																
+Study Person First Name	Sona																																
+Study Person Email	sona.valuchova@ceitec.muni.cz																																
+Study Person Address	Kamenice 5, Brno 625 00, Czechia																																
+Study Person ORCID	0000-0003-1109-4279																																
+Study Person Roles	submitter	
+																												
+# Study License and Data DOI																																	
+Study License	CC BY 4.0																															
+Study License URL	https://creativecommons.org/licenses/by/4.0/																																
+Study Copyright	Valuchova et al																																
+Study Data Publisher	University of Dundee																																
+Study Data DOI																																
+Term Source Name	NCBITaxon	EFO	CMPO	FBbi																													
+Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/		
+																																	
+# EXPERIMENT SECTION																																	
+# Experiment Section containing all information relative to each experiment in the study including materials used, protocols names and description, phenotype names and description. For multiple experiments this section should be repeated.  Copy and paste the whole section below and fill out for the next experiment																																
+Experiment Number	1																																
+Comment[IDR Experiment Name]	idr0077-valuchova-flowerlightsheet/experimentA	
+
+Experiment Sample Type	tissue												
+Experiment Description	Using the light sheet microscope we acquired 16 different datasets of Arabidopsis flower development.																																
+Experiment Size	5D Images: 	Average Image Dimension (XYZCT):XYZTC 	Total Tb: 33 Folders, 1697 Files, total size: 5.88 TB																													
+Experiment Example Images	2018-12-18 ASY H2B bud 05 3D 8 angles 																			
+Experiment Imaging Method	SPIM																																
+Experiment Imaging Method Term Source REF	Fbbi																																
+Experiment Imaging Method Term Accession	FBbi_00000369																														
+Experiment Comments	light sheet microscopy																																
+																																	
+# assay files																																	
+Experiment Assay File																																	
+Experiment Assay File Format	tab-delimited text																																
+Assay Experimental Conditions																																	
+Assay Experimental Conditions Term Source REF																																
+Assay Experimental Conditions Term Accession																																	
+Quality Control Description																															
+																																	
+# Protocols																																	
+Protocol Name	growth protocol	treatment protocol	image acquisition and feature extraction protocol	data analysis protocol																													
+Protocol Type	growth protocol	treatment protocol	image acquisition and feature extraction protocol	data analysis protocol																													
+Protocol Type Term Source REF	EFO	EFO																															
+Protocol Type Term Accession	EFO_0003789	EFO_0003969																															
+Protocol Description	Plants were grown in soil under long-day conditions (16 h/8 h light/dark regime at 21 °C).																																													
+# Phenotypes																																	
+Phenotype Name																																	
+Phenotype Description																																	
+Phenotype Score Type																																	
+Phenotype Term Source REF	CMPO																																
+Phenotype Term Name																																
+Phenotype Term Accession			
+																																	
+# Feature Level Data Files (give individual file details unless there is one file per well)																																	
+Feature Level Data File Name																																	
+Feature Level Data File Format																																	
+Feature Level Data File Description																																	
+Feature Level Data Column Name																															
+Feature Level Data Column Description	
+																																	
+#  Processed Data Files 																																	
+Processed Data File Name																																
+Processed Data File Format	tab-delimited text																																
+Processed Data File Description																																	
+Processed Data Column Name																																
+Processed Data Column Type																												
+Processed Data Column Annotation Level																								
+Processed Data Column Description	
+																
+Processed Data Column Link To Assay File	
