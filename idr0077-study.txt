@@ -8,7 +8,8 @@ Study Type	time-lapse imaging
 Study Type Term Source REF	OMIT																																
 Study Type Term Accession	OMIT_0027490																																
 Study Description	In higher plants, germline differentiation occurs during a relatively short period within developing flowers. Understanding of the mechanisms that govern germline differentiation lags behind other plant developmental processes. This is largely because the germline is restricted to relatively few cells buried deep within floral tissues, which makes them difficult to study. To overcome this limitation, we have developed a methodology for live imaging of the germ cell lineage within floral organs of Arabidopsis using light sheet fluorescence microscopy. We have established reporter lines, cultivation conditions, and imaging protocols for high-resolution microscopy of developing flowers continuously for up to several days. We used multiview imagining to reconstruct a three-dimensional model of a flower at subcellular resolution.  We demonstrate the power of this approach by capturing male and female meiosis, asymmetric pollen division, movement of meiotic chromosomes, and unusual restitution mitosis in tapetum cells. This method will enable new avenues of research into plant sexual reproduction.				
-Study Key Words	germline	meiosis	flower	live cell imaging	light sheet microscopy	SPIM		
+Study Key Words	germline	meiosis	flower	live cell imaging	light sheet microscopy	SPIM	
+	
 Study Organism	Arabidopsis thaliana																			
 Study Organism Term Source REF	NCBITaxon																			
 Study Organism Term Accession	3702																			
