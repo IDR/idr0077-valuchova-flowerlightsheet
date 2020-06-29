@@ -17,7 +17,7 @@ Study Experiments Number	1
 Study External URL		
 
 Study BioImage Archive Accession																
-Study Public Release Date																																
+Study Public Release Date	2020-06-30																																
 																																	
 # Study Publication																																	
 Study PubMed ID	32041682																																
@@ -52,7 +52,7 @@ Experiment Sample Type	tissue
 Experiment Description	Using the light sheet microscope we acquired 16 different datasets of Arabidopsis flower development.																																
 Experiment Size	5D Images: 	Average Image Dimension (XYZCT):XYZTC 	Total Tb: 33 Folders, 1697 Files, total size: 5.88 TB																													
 Experiment Example Images	2018-12-18 ASY H2B bud 05 3D 8 angles 																			
-Experiment Imaging Method	SPIM																																
+Experiment Imaging Method	light sheet fluorescence microscopy	SPIM																																
 Experiment Imaging Method Term Source REF	Fbbi																																
 Experiment Imaging Method Term Accession	FBbi_00000369																														
 Experiment Comments	light sheet microscopy																																
