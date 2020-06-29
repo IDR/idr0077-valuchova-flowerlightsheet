@@ -55,7 +55,7 @@ Experiment Example Images	2018-12-18 ASY H2B bud 05 3D 8 angles
 Experiment Imaging Method	light sheet fluorescence microscopy	SPIM																																
 Experiment Imaging Method Term Source REF	Fbbi																																
 Experiment Imaging Method Term Accession	FBbi_00000369																														
-Experiment Comments	light sheet microscopy																																
+Experiment Comments																																
 																																	
 # assay files																																	
 Experiment Assay File																																	
